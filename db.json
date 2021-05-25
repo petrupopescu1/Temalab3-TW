@@ -1,0 +1,313 @@
+{
+    "meniu": [
+        {
+            "id": "6d7f7118-93c2-4bff-934b-b884d1811ff0",
+            "nume": "Supă de pasăre cu tăiței",
+            "tip": "supe",
+            "pret": 18,
+            "cantitate": 0
+        },
+        {
+            "id": "b74050d9-154c-46fd-b653-18a3c2180a80",
+            "nume": "Supă de pasăre cu găluște",
+            "tip": "supe",
+            "pret": 18,
+            "cantitate": 1
+        },
+        {
+            "id": "4ee1aa8b-3e5b-49af-9ca5-1ab28866414c",
+            "nume": "Supă de roșii",
+            "tip": "supe",
+            "pret": 15,
+            "cantitate": 0
+        },
+        {
+            "id": "13e27870-43d4-45ea-8fd5-07c6982d36a2",
+            "nume": "Cremă de legume",
+            "tip": "supe",
+            "pret": 16,
+            "cantitate": 0
+        },
+        {
+            "id": "d15e824e-5436-45f9-8487-7ef0df4d4fe8",
+            "nume": "Ciorbă de fasole",
+            "tip": "supe",
+            "pret": 17,
+            "cantitate": 0
+        },
+        {
+            "id": "6a60fc7a-b175-47f0-bbe2-105e8f4c8abe",
+            "nume": "Ciorbă de lobodă",
+            "tip": "supe",
+            "pret": 18,
+            "cantitate": 0
+        },
+        {
+            "id": "13d65911-6d63-4e82-84c2-53f3d021d2c6",
+            "nume": "Ciorbă de văcuță",
+            "tip": "supe",
+            "pret": 22,
+            "cantitate": 0
+        },
+        {
+            "id": "bd01e713-749d-4f7b-b92f-9325c54481c8",
+            "nume": "Ciorbă de pește",
+            "tip": "supe",
+            "pret": 24,
+            "cantitate": 0
+        },
+        {
+            "id": "5fed21b9-e32f-4e57-ba74-d815c91f9d67",
+            "nume": "Ciorbă rădăuțeană",
+            "tip": "supe",
+            "pret": 23,
+            "cantitate": 0
+        },
+        {
+            "id": "f4a4c8b2-8bf1-4b93-9512-0552002b2f6a",
+            "nume": "Ciorbă de burtă",
+            "tip": "supe",
+            "pret": 25,
+            "cantitate": 0
+        },
+        {
+            "id": "0bf77832-b22d-4e2b-a8d3-6746077ad552",
+            "nume": "Salată bulgărească",
+            "tip": "salate",
+            "pret": 18,
+            "cantitate": 0
+        },
+        {
+            "id": "e3d61210-5bc7-4f6b-b788-8f97a6098cc1",
+            "nume": "Salată de vinete",
+            "tip": "salate",
+            "pret": 20,
+            "cantitate": 0
+        },
+        {
+            "id": "d63129ff-8885-4acd-b871-16382fbd1c92",
+            "nume": "Salată de icre de știucă",
+            "tip": "salate",
+            "pret": 25,
+            "cantitate": 0
+        },
+        {
+            "id": "aafcd6b2-3298-47e5-aadf-3ac550b11596",
+            "nume": "Salată verde cu ridichi",
+            "tip": "salate",
+            "pret": 16,
+            "cantitate": 0
+        },
+        {
+            "id": "a62ff0b6-5691-4deb-8c35-89fc41c3822b",
+            "nume": "Platou ciobănesc",
+            "tip": "gustari",
+            "pret": 30,
+            "cantitate": 0
+        },
+        {
+            "id": "19da57bb-e0b4-4028-9928-699596c01d1b",
+            "nume": "Platou cu brânzeturi",
+            "tip": "gustari",
+            "pret": 28,
+            "cantitate": 1
+        },
+        {
+            "id": "29dddfd8-0821-40c6-bf5c-99dc27100076",
+            "nume": "Platou carnivor",
+            "tip": "gustari",
+            "pret": 34,
+            "cantitate": 0
+        },
+        {
+            "id": "1f2f85d0-a05d-4df2-8a97-ae223dca5cb9",
+            "nume": "Pastramă de berbecuț",
+            "tip": "principal",
+            "pret": 38,
+            "cantitate": 0
+        },
+        {
+            "id": "9e5b33b5-8a6e-4539-8fb9-f515df5fc09c",
+            "nume": "Cotlet de berbecuț",
+            "tip": "principal",
+            "pret": 42,
+            "cantitate": 0
+        },
+        {
+            "id": "2723826f-47a0-4f0b-92df-a3c7f8962dd9",
+            "nume": "Bulz ciobănesc",
+            "tip": "principal",
+            "pret": 35,
+            "cantitate": 0
+        },
+        {
+            "id": "bd776c12-c487-49e4-99d0-b4d1c2686bb6",
+            "nume": "Rață pe varză",
+            "tip": "principal",
+            "pret": 56,
+            "cantitate": 0
+        },
+        {
+            "id": "eee27c1c-fe9f-48ef-8f09-163180499737",
+            "nume": "Fasole cu ciolan",
+            "tip": "principal",
+            "pret": 36,
+            "cantitate": 0
+        },
+        {
+            "id": "7dde801b-f10e-422a-bc75-8c851a32a402",
+            "nume": "Piept de pui la grătar",
+            "tip": "principal",
+            "pret": 28,
+            "cantitate": 0
+        },
+        {
+            "id": "3534699e-34c1-4a5c-85d5-54615574cba4",
+            "nume": "Antricot de vițel",
+            "tip": "principal",
+            "pret": 72,
+            "cantitate": 0
+        },
+        {
+            "id": "486b54d3-e6e8-4af3-8617-ddb43931f0ee",
+            "nume": "Piept de curcan la cuptor",
+            "tip": "principal",
+            "pret": 56,
+            "cantitate": 0
+        },
+        {
+            "id": "d31725ca-f7bc-45a5-a068-d56e5392dad3",
+            "nume": "Pui la ceaun",
+            "tip": "principal",
+            "pret": 38,
+            "cantitate": 0
+        },
+        {
+            "id": "b936d8ef-c496-43b5-891c-3b416992ec77",
+            "nume": "Saramură de crap",
+            "tip": "principal",
+            "pret": 46,
+            "cantitate": 0
+        },
+        {
+            "id": "bf2d4c78-fcc9-4534-8d8a-7ab80183483c",
+            "nume": "Păstrăv la grătar",
+            "tip": "principal",
+            "pret": 36,
+            "cantitate": 0
+        },
+        {
+            "id": "3fbdc2e5-5cc9-4f8c-831b-dbffede16794",
+            "nume": "Mămăligă",
+            "tip": "garnituri",
+            "pret": 12,
+            "cantitate": 0
+        },
+        {
+            "id": "e1fd4ff1-a1e0-4dab-a0de-e8274ab293eb",
+            "nume": "Piure de carofi",
+            "tip": "garnituri",
+            "pret": 14,
+            "cantitate": 0
+        },
+        {
+            "id": "814b5d1d-968f-48cc-be4e-2df39fc3bf1d",
+            "nume": "Cartofi prăjiți",
+            "tip": "garnituri",
+            "pret": 12,
+            "cantitate": 0
+        },
+        {
+            "id": "23d087a0-2576-4a20-90fd-1bbabfd7f1b1",
+            "nume": "Mujdei",
+            "tip": "garnituri",
+            "pret": 2,
+            "cantitate": 0
+        },
+        {
+            "id": "246c5c44-da7b-42ea-bd0e-7216aeec7450",
+            "nume": "Cartofi românești",
+            "tip": "garnituri",
+            "pret": 14,
+            "cantitate": 0
+        },
+        {
+            "id": "64bee389-e6d9-437d-965d-e6e606892013",
+            "nume": "Găluște cu prune",
+            "tip": "desert",
+            "pret": 18,
+            "cantitate": 0
+        },
+        {
+            "id": "37d84cf8-d7b0-4f69-8018-19e65148a167",
+            "nume": "Cremă de zahăr ars",
+            "tip": "desert",
+            "pret": 17,
+            "cantitate": 0
+        },
+        {
+            "id": "bb116a48-144d-4b81-8c63-8309b0a96620",
+            "nume": "Vinul casei roșu",
+            "tip": "bauturi",
+            "pret": 25,
+            "cantitate": 0
+        },
+        {
+            "id": "9f7a96fb-fded-4132-a2ca-15f3d7184a43",
+            "nume": "Vinul casei alb",
+            "tip": "bauturi",
+            "pret": 25,
+            "cantitate": 0
+        },
+        {
+            "id": "f3523636-ce1a-4796-b2d1-1e3a9a082f06",
+            "nume": "Timișoreana sticlă",
+            "tip": "bauturi",
+            "pret": 7,
+            "cantitate": 0
+        },
+        {
+            "id": "15d69572-07db-4855-a930-e953fdbbfd31",
+            "nume": "Timișoreana draught",
+            "tip": "bauturi",
+            "pret": 7,
+            "cantitate": 0
+        },
+        {
+            "id": "0a0d43f7-058d-4d6c-ab52-e40bd23c9222",
+            "nume": "Timișoreana fără alcool",
+            "tip": "bauturi",
+            "pret": 8,
+            "cantitate": 0
+        },
+        {
+            "id": "8b6b6270-b545-47fc-9b30-33301ccd927e",
+            "nume": "Borsec plată",
+            "tip": "bauturi",
+            "pret": 6,
+            "cantitate": 0
+        },
+        {
+            "id": "e2539728-8ec5-43b4-95bc-5c57f1ac7339",
+            "nume": "Borsec minerală",
+            "tip": "bauturi",
+            "pret": 6,
+            "cantitate": 0
+        },
+        {
+            "id": "12c112d6-2d5d-4d2a-a56b-79f35f29b923",
+            "nume": "Pepsi",
+            "tip": "bauturi",
+            "pret": 8,
+            "cantitate": 0
+        },
+        {
+            "id": "fbc9bc74-2ed6-4310-8290-856090ca46e8",
+            "nume": "Țuică de prune",
+            "tip": "bauturi",
+            "pret": 16,
+            "cantitate": 0
+        }
+    ],
+    "reviews": []
+}

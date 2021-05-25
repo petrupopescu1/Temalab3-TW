@@ -1,0 +1,555 @@
+body
+{
+    background-color: #1b1717;
+}
+
+.menu
+{
+  display: grid;
+  grid-template-columns: repeat(7,14.28%);
+  grid-template-rows: 100%;
+}
+  
+#logo
+{
+  height: 90px;
+}
+
+.menu-item{
+    display: inline-block;
+    color: #eeebdd;
+    background-color: #630000;
+    text-align: center;
+    text-decoration: none;
+    font-size:30px; 
+  }
+
+.menu-text
+{
+  color:#eeebdd;
+}
+
+.menu-text:hover 
+{
+    color: darkorange;
+}
+
+h1{
+    color:#810000;
+    font-family: Arial;
+}
+
+
+p{
+    color:#810000;
+    font-family: Times;
+    font-size:30px;
+    line-height:30px;
+}
+
+.meniu-item{
+  color:black;
+  font-family: Times;
+  font-size:28px;
+  padding-left:50px;
+}
+
+
+#galerie {
+  background-color:#eeebdd;
+  width:1600px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3,33.33%);
+  grid-template-rows: repeat(3,33.33%);
+}
+
+#tripadvisor
+{
+  grid-area:2/2/3/3;
+}
+
+.poze
+{
+  height:400px;
+  width:400px;
+  padding-bottom:10px;
+} 
+
+.pozaliv
+{
+  height:200px;
+  width:200px;
+  padding:20px;
+  border-radius: 50%;
+}
+
+hr
+{
+  color:#810000;
+}
+
+#deliveryapps
+{
+  display: flex;
+  justify-content:space-around;
+}
+
+footer 
+{
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  color:#eeebdd;
+}
+
+.footercont
+{
+  display:flex;
+  flex-direction:bottom;
+  justify-content: center;
+}
+
+.whitebox
+{
+  background-color:#eeebdd;
+  width:1200px;
+}
+
+.whitebox2
+{
+  background-color:#eeebdd;
+  width:1200px;
+  text-align:center;
+}
+
+.container
+{
+  display:flex;
+  justify-content:center;
+}
+
+.container2
+{
+  display:flex;
+  justify-content:center;
+}
+
+.meniu-header
+{
+  color:#810000;
+  font-family: 'Berkshire Swash', cursive;
+  text-align:center;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+.pret
+{
+  font-family: 'Berkshire Swash', cursive;
+  font-size:26px;
+  color:#ed6663;
+  padding-right:50px;
+}
+
+.categorie-meniu
+{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+.whitebox2-contact
+{
+  background-color:#eeebdd;
+  width:1200px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;   
+}
+
+.harta
+{
+  display:flex;
+  justify-content:center;
+}
+
+#delivery-line
+{
+  width:1000px;
+}
+
+#info-text
+{
+  text-align:center;
+}
+
+.information
+{
+  text-align:left;
+  line-height: 40px;
+}
+
+.containerimg {
+  position: relative;
+  width: 50%;
+  display:flex;
+  justify-content:center;
+}
+
+.image {
+  display: block;
+  width: 60%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 20%;
+  right: 0;
+  background-color: #00af87;
+  overflow: hidden;
+  width: 60%;
+  height: 0;
+  transition: .5s ease;
+  opacity:90%;
+}
+
+.containerimg:hover .overlay {
+  bottom:0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: #eeebdd;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+@media(max-width:768px)
+{
+  #logo
+  {
+    padding-top:15px;
+    height:40px;
+  }
+  .whitebox2
+  {
+    background-color:#eeebdd;
+    width:500px;
+    text-align:center;
+  }
+  .pozaliv
+  {
+    height:80px;
+    width:80px;
+    padding:20px;
+    border-radius: 50%;
+  }
+  .menu-text
+  {
+    color:#eeebdd;
+    font-size:20px;
+  }
+  #delivery-line
+  {
+    width:400px;
+  }
+  .whitebox
+  {
+    background-color:#eeebdd;
+    width:500px;
+  }
+  .whitebox2-contact
+  {
+    background-color:#eeebdd;
+    width:600px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;   
+  }
+  .meniu-item{
+    color:black;
+    font-family: Times;
+    font-size:20px;
+    padding-left:50px;
+  }
+  .pret{
+    font-size:18px;
+  }
+}
+
+
+@media(min-width:769px) and (max-width:1280px)
+{
+  #logo
+  {
+    padding-top:14px;
+    height:55px;
+  }
+  .whitebox2
+  {
+    background-color:#eeebdd;
+    width:650px;
+    text-align:center;
+  }
+  .pozaliv
+  {
+    height:80px;
+    width:80px;
+    padding:20px;
+    border-radius: 50%;
+  }
+  .menu-text
+  {
+    color:#eeebdd;
+    font-size:25px;
+  }
+  #delivery-line
+  {
+    width:550px;
+  }
+  .whitebox
+  {
+    background-color:#eeebdd;
+    width:650px;
+  }
+  .whitebox2-contact
+  {
+    background-color:#eeebdd;
+    width:650px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;   
+  }
+}
+
+h1
+{
+  text-align:center;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.adauga
+{
+  height:15px;
+  width:15px;
+}
+
+.button-adauga
+{
+  border-radius:50%;
+}
+
+.cos-click
+{
+  text-align:right;
+  margin-right:10px;
+  text-decoration:none;
+}
+
+#cos-image
+{
+  height:75px;
+  width:75px;
+}
+
+.container-cos
+{
+  display:flex;
+  justify-content:right;
+}
+
+#total
+{
+  display:flex;
+  justify-content:center;
+  font-size:30px;
+}
+
+#container-cos2
+{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
+
+#continut
+{
+  display:flex;
+  justify-content: center;
+}
+
+#container-titlu
+{
+  display:flex;
+  justify-content:center;
+}
+
+#continut-review
+{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+
+.review
+{
+  width:1000px;
+  border-style: solid;
+  border-color:#630000;
+  border-width:2px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin: 10px;
+}
+
+.titlu-review
+{
+  font-family: 'Berkshire Swash', cursive;
+  font-size:26px;
+  color:#ed6663;
+  margin-top:5px;
+}
+
+.container-titlu-review
+{
+  display:flex;
+  justify-content: center;
+  height:30px;
+}
+
+.continut2-review
+{
+  margin-top:0px;
+  padding-left:50px;
+  margin-bottom:5px;
+}
+
+
+
+#adauga-review
+{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  width:1000px;
+}
+
+#numer
+{
+  width:150px;
+}
+
+#titlur
+{
+  width:150px;
+}
+
+#reviewr
+{
+  height:200px;
+}
+
+#butonr
+{
+  width:300px;
+}
+
+#adauga-review-container
+{
+  display:flex;
+  justify-content:center;
+}
+
+#reviews-container
+{
+  display:flex;
+  justify-content:space-around;
+  flex-direction:column;
+}
+
+.review-center
+{
+  display: flex;
+  justify-content:center;
+}
+
+#butonr-container
+{
+  display:flex;
+  justify-content:center;
+}
+
+#leave-review
+{
+  display:flex;
+  justify-content:center;
+}
+
+#leave-a
+{
+   text-decoration-color:#810000;
+}
+
+#identificare2
+{
+  display:flex;
+  justify-content:center;
+}
+
+.nume-review
+{
+  color:black;
+  font-family: Times;
+  font-size:20px;
+  margin-bottom:5px;
+  margin-top:5px;
+}
+
+.delete-button
+{
+  width:300px;
+  margin-bottom:5px;
+}
+
+button
+{
+  color:#630000;
+  background-color: #eeebdd;
+  border-color:#630000;
+}
+
+input
+{
+  color:#630000;
+  background-color: #eeebdd;
+  border-color:#630000;
+  border-width:1px;
+}
+
+textarea
+{
+  color:#630000;
+  background-color: #eeebdd;
+  border-color:#630000;
+  border-width:1px;
+}
+
+.deletecontainerb
+{
+  display:flex;
+  justify-content:center;
+}
